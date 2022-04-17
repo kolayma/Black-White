@@ -1,8 +1,16 @@
 * {
   box-sizing: border-box;
+  background-color: #85888f;
 }
-.header {
-  background-color: grey;
+.body {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    min-height: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .header-container {
   display: flex;
@@ -14,7 +22,28 @@
 .main {
   display: flex;
   justify-content: space-around;
+  /*align-items: center;*/
   border: 1px solid red;
   max-width: 1140px;
-  margin: auto;
+  margin: auto;  
+}
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.button-order {
+  padding: 20px 50px 20px 50px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  background-color: rgb(236, 123, 10);
+}
+.button-look {
+  padding: 20px 50px 20px 50px;
+  border: 2px solid orange;
+  border-radius: 5px;
+  color: #2c2c2c;
+  margin-left: 20px;
+}
+.picture {
+  overflow: hidden;
 }
