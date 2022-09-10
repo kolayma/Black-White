@@ -5,8 +5,22 @@
 @font-face {
   font-family: 'Futura PT Demi';
   src: url('../fonts/FuturaPT-Demi.woff2') format('woff2'),
-  url('../fonts/FuturaPT-Demi.woff') format('woff');
+    url('../fonts/FuturaPT-Demi.woff') format('woff');
   font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Futura PT Medium';
+  src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Medium.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Futura PT Light';
+  src: url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+    url('../fonts/FuturaPT-Light.woff') format('woff');
+  font-weight: 200;
   font-style: normal;
 }
 .body {
@@ -26,11 +40,20 @@
   /*align-items: center;*/
   border: 1px solid red;
   max-width: 1140px;
-  margin: auto;  
+  margin: auto;
 }
 .description {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.nameone {
+  font-weight: bold;
+  font-size: 90px;
+}
+.nametwo {
+  font-family: 'Futura PT Medium';
+  font-size: 22px;
+  color: #4e4f52;
 }
 .button-order {
   padding: 20px 50px 20px 50px;
@@ -46,5 +69,10 @@
   margin-left: 20px;
 }
 .picture {
-  overflow: hidden;
+  height: 500px;
+  width: 1500px;
+  background-image: url(../img/image\ \(7\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
